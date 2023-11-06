@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Register</h2>
+        <form action="index.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <select name="type" id="type">
+                <option value="admin">admin</option>
+                <option value="guest">guest</option>
+                <option value="client">client</option>
+            </select>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="submit" name="register" value="Register">
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+</body>
+</html>
